@@ -1,0 +1,22 @@
+import React from 'react'
+
+class Header extends React.Component {
+  render () {
+    return (
+      <nav className="navbar navbar-inverse bg-inverse">
+	<div className="container-fluid">
+           <div className="navbar-header">
+               <a className="navbar-brand" href="#">React Application</a>
+           </div>
+            <ul className="navbar-nav">
+              <li className="active"><a href="#">Home</a></li>
+              <li><a href="#">Operations</a></li>
+              <li><a href="#">About</a></li>
+            </ul>
+        </div>
+     </nav>
+    )
+  }
+}
+
+export default Header
